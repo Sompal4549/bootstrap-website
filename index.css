@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+}
+main {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+#home {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 750px;
+  background-color: gray;
+  
+}
+.home-absolute-content {
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  background-color: rgba(250, 250, 250, 0.6);
+  width: 500px;
+}
+.home-button {
+  font-weight: 500;
+  font-size: 20px;
+  background: white;
+}
+
