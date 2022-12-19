@@ -15,13 +15,12 @@ main {
   margin: 0;
   padding: 0;
   width: 100%;
-  background-image: url("bg.jpg");
+  background-image: url("bg.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 750px;
   background-color: gray;
-  
 }
 .home-absolute-content {
   transform: translate(-50%, -50%);
@@ -35,4 +34,43 @@ main {
   font-size: 20px;
   background: white;
 }
-
+.specialities {
+  height: auto;
+}
+.navbar-brand {
+  width: 20%;
+}
+.navbar-nav {
+  width: 80%;
+}
+.ourPlate {
+  height: auto;
+  background-image: url("our-plate.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: gray;
+  background-size: cover;
+}
+.plate-card {
+  /* width: 200px; */
+  max-height: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.our-plate {
+  background-color: rgba(250, 250, 250, 0.8);
+}
+.menu-section {
+  background-color: #4b8c9e;
+}
+.menu-whitebg {
+  background-color: rgba(250, 250, 250, 0.6);
+}
+@media screen and (max-width: 550px) {
+  .home-absolute-content {
+    width: 80%;
+  }
+}
