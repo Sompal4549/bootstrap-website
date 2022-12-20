@@ -55,12 +55,18 @@ main {
 }
 .plate-card {
   /* width: 200px; */
+  max-width: 320px;
   max-height: 200px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .our-plate {
   background-color: rgba(250, 250, 250, 0.8);
@@ -73,6 +79,8 @@ main {
 }
 .form-wala {
   background-color: #2a3b40;
+  display: grid;
+  place-items: center;
 }
 .form-wala select,
 .form-wala input {
@@ -99,8 +107,20 @@ main {
   padding: 5px;
   background-color: #607f88;
 }
+.card {
+  min-width: 1px;
+  max-width: 330px;
+}
 @media screen and (max-width: 550px) {
   .home-absolute-content {
     width: 80%;
+  }
+
+  .card {
+    min-width: 1px;
+    max-width: 320px;
+  }
+  .menu-section {
+    text-align: center;
   }
 }
