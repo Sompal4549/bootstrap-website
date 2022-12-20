@@ -111,6 +111,16 @@ main {
   min-width: 1px;
   max-width: 330px;
 }
+body {
+  position: relative;
+}
+.home-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
 @media screen and (max-width: 550px) {
   .home-absolute-content {
     width: 80%;
