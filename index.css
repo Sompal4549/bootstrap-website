@@ -11,15 +11,17 @@ main {
   padding: 0;
   width: 100%;
 }
-#home {
+
+#home,
+.bg {
   margin: 0;
   padding: 0;
   width: 100%;
-  background-image: url("bg.webp");
+  background-image: url("40.webp");
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
-  height: 750px;
+  height: 100vh;
   background-color: gray;
 }
 .home-absolute-content {
@@ -68,6 +70,34 @@ main {
 }
 .menu-whitebg {
   background-color: rgba(250, 250, 250, 0.6);
+}
+.form-wala {
+  background-color: #2a3b40;
+}
+.form-wala select,
+.form-wala input {
+  background-color: transparent;
+  border: 1.5px solid white;
+  color: white;
+  border-radius: 5px;
+  padding: 4px;
+}
+.quote-section {
+  background-color: #2a3b40;
+}
+::-webkit-input-placeholder {
+  color: white;
+}
+.quote-social {
+  padding: 5px;
+  background-color: white;
+  border-radius: 100%;
+  color: #2a3b40;
+}
+.footerlinkHeading {
+  color: #2a3b40;
+  padding: 5px;
+  background-color: #607f88;
 }
 @media screen and (max-width: 550px) {
   .home-absolute-content {
